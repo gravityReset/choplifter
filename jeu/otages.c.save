@@ -1,0 +1,163 @@
+#include "otages.h"
+
+
+void init_otages(Otage otg[])
+{
+    int i;
+
+    for(i=0; i<16*3; i++)
+    {
+        otg[i].active= NULL;
+        otg[i].faitcoucou=0;
+        otg[i].otage_left_0= IMG_Load("assets/otages/otage_left_0.png");
+        otg[i].otage_left_1= IMG_Load("assets/otages/otage_left_1.png");
+        otg[i].otage_right_0= IMG_Load("assets/otages/otage_right_0.png");
+        otg[i].otage_right_1= IMG_Load("assets/otages/otage_right_1.png");
+        otg[i].img_fait_coucou_0=NULL;
+        otg[i].img_fait_coucou_1=NULL;
+        otg[i].compteur=0;
+        otg[i].inHeli=0;
+        otg[i].position.x=0;
+        otg[i].position.y=0;
+    }
+
+}
+
+void display_otages(SDL_Surface* screen,Otage otg[],Background bg)
+{
+    int y;
+
+    for(y=0; y<16*3; y++)
+    {
+        if(otg[y].active!=NULL)
+        {
+            otg[y].position.x=otg[y].position.x-(otg[y].bgX- bg.posX);
+            otg[y].bgX=bg.posX;
+            SDL_BlitSurface(otg[y].active, NULL, screen, &otg[y].position);
+        }
+    }
+
+}
+void move_otages(Otage otg[],Helico hl,Background bg,int* otageS)
+{
+    int y;
+    for(y=0; y<16*3; y++)
+    {
+
+        if(otg[y].active!=NULL)
+        {
+            if(otg[y].inHeli==1)
+            {
+                if(otg[y].position.y < 270)
+                {
+                     if(otg[y].faitcoucou!=1)
+                     {
+                        otg[y].active=NULL;
+                        otg[y].inHeli=3;
+                        *otageS=(*otageS)+1;
+                     }
+                     else
+                     {
+                        otg[y].compteur++;
+                     }
+
+                }
+                else
+                {
+                    otg[y].position.y--;
+                    otg[y].dir=y%2;
+                    otg[y].compteur++;
+                }
+
+            }
+            else if(otg[y].position.x<hl.position.x+((y%16)*4) && hl.position.y>(LIMITE_BAS-30))//heli j'arrive
+            {
+                otg[y].dir=RIGHT;
+                otg[y].position.x++;
+                otg[y].compteur++;
+            }
+            else if(otg[y].position.x> (hl.position.x+hl.active->w-((y%16)*4)) && hl.position.y>(LIMITE_BAS-60)) //on se dirige vers 'l'heli
+            {
+                otg[y].dir=LEFT;
+                otg[y].position.x--;
+                otg[y].compteur++;
+            }
+            else//mouvement aleatoire :)
+            {
+                if(rand()%10==1)
+                    otg[y].dir=rand()%2;
+                if(rand()%2==1)
+                {
+                    otg[y].position.x+=(otg[y].dir==1)?-1:1;
+                    otg[y].compteur+=2;
+                }
+                //on limite quand meme un peu le déplacement
+                if(hl.position.x+200<otg[y].position.x)
+                    otg[y].dir=LEFT;
+                else if(hl.position.x-200>otg[y].position.x)
+                    otg[y].dir=RIGHT;
+
+            }
+
+            if(otg[y].active!=NULL)
+                if(otg[y].dir == LEFT)
+                {
+                    if(otg[y].faitcoucou==1)
+                    {
+                        if(otg[y].compteur%10< 5)
+                            otg[y].active = otg[y].img_fait_coucou_0;
+                        else if(otg[y].compteur%10>= 5)
+                        {
+                            otg[y].active = otg[y].img_fait_coucou_1;
+                            if(otg[y].compteur>120)
+                            {
+                                otg[y].faitcoucou=0;
+                                otg[y].active=otg[y].otage_left_0;
+                                SDL_FreeSurface(otg[y].img_fait_coucou_1);
+                                SDL_FreeSurface(otg[y].img_fait_coucou_0);
+                            }
+                        }
+
+                    }
+                    else
+                    if(otg[y].compteur< 3)
+                        otg[y].active = otg[y].otage_left_0;
+                    else if(otg[y].compteur>= 3)
+                    {
+                        otg[y].active = otg[y].otage_left_1;
+                        if(otg[y].compteur>6)
+                            otg[y].compteur=0;
+                    }
+                }
+                else
+                {
+                    if(otg[y].compteur<3)
+                        otg[y].active = otg[y].otage_right_0;
+                    else if(otg[y].compteur>=3)
+                    {
+                        otg[y].active = otg[y].otage_right_1;
+                        if(otg[y].compteur>3*2 )
+                            otg[y].compteur=0;
+                    }
+                }
+        }
+    }
+
+}
+
+void rescue_otages(BaseEn bs,Otage otg[],int nb_base)
+{
+    int i;
+    int posIni=bs.position.x;
+    for(i=nb_base*16; i<16*nb_base+16; i++)
+    {
+        otg[i].active=otg[i].otage_left_0;
+        otg[i].position.x=posIni;
+        otg[i].position.y=HEIGHT-15-30;
+        otg[i].bgX=bs.position.x-bs.bgX;
+        otg[i].dir=rand()%2;
+        posIni+=8;
+    }
+}
+
+

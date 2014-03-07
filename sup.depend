@@ -1,0 +1,566 @@
+# depslib dependency file v1.0
+1368724611 source:c:\users\lucas\desktop\sup\main.c
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmodex/fmod.h>
+	"definitions.h"
+	"homescreen.h"
+	"menuscreen.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326114588 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326114594 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326114600 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\begin_code.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\close_code.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1368463120 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1368716283 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370630664 c:\users\lucas\desktop\sup\definitions.h
+
+1368697970 c:\users\lucas\desktop\sup\homescreen.h
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	"image.h"
+
+1368697970 c:\users\lucas\desktop\sup\image.h
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1368697971 c:\users\lucas\desktop\sup\menuscreen.h
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	"image.h"
+
+1368702880 source:c:\users\lucas\desktop\sup\homescreen.c
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	<SDL/SDL_ttf.h>
+	"definitions.h"
+	"homescreen.h"
+	"text.h"
+
+1369062223 c:\users\lucas\desktop\sup\text.h
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1368697970 source:c:\users\lucas\desktop\sup\image.c
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"definitions.h"
+	"image.h"
+
+1370794948 source:c:\users\lucas\desktop\sup\menuscreen.c
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmodex/fmod.h>
+	"score.h"
+	"text.h"
+	"definitions.h"
+	"menuscreen.h"
+	"image.h"
+
+1368701180 source:c:\users\lucas\desktop\sup\text.c
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"definitions.h"
+	"text.h"
+
+1370696897 source:c:\users\lucas\desktop\sup\jeu\helico.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	<SDL/SDL_ttf.h>
+	"scroll.h"
+	"helico.h"
+
+1369062863 c:\users\lucas\desktop\sup\jeu\helico.h
+	<SDL/SDL.h>
+	"../text.h"
+	"../definitions.h"
+
+1370619120 source:c:\users\lucas\desktop\sup\jeu\scroll.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	<SDL/SDL_ttf.h>
+	"../image.h"
+	"scroll.h"
+
+1368885178 c:\users\lucas\desktop\sup\jeu\scroll.h
+	"../image.h"
+
+1370983656 source:c:\users\lucas\desktop\sup\jeu\game.c
+	"game.h"
+
+1370952263 c:\users\lucas\desktop\sup\jeu\game.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	<SDL/SDL_ttf.h>
+	"../text.h"
+	"otages.h"
+	"scroll.h"
+	"helico.h"
+	"decor.h"
+	"collision.h"
+	"enemi.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1368896757 source:c:\users\lucas\desktop\sup\jeu\decor.c
+	"decor.h"
+	"scroll.h"
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1368992919 c:\users\lucas\desktop\sup\jeu\decor.h
+	"../image.h"
+	"../definitions.h"
+	"scroll.h"
+	<SDL/SDL.h>
+
+1370980909 source:c:\users\lucas\desktop\sup\jeu\collision.c
+	"collision.h"
+
+1370980983 c:\users\lucas\desktop\sup\jeu\collision.h
+	"../image.h"
+	"../definitions.h"
+	"scroll.h"
+	"helico.h"
+	"decor.h"
+	"otages.h"
+	"enemi.h"
+	<SDL/SDL.h>
+
+1370943441 c:\users\lucas\desktop\sup\jeu\otages.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	<SDL/SDL_ttf.h>
+	"scroll.h"
+	"decor.h"
+	"helico.h"
+
+1370978908 source:c:\users\lucas\desktop\sup\jeu\otages.c
+	"otages.h"
+
+1370859378 c:\users\lucas\desktop\sup\jeu\enemi.h
+	<SDL/SDL.h>
+	"decor.h"
+	"scroll.h"
+	"helico.h"
+	"../definitions.h"
+	<stdlib.h>
+	<time.h>
+
+1370979024 source:c:\users\lucas\desktop\sup\jeu\enemi.c
+	"enemi.h"
+	"../definitions.h"
+	<math.h>
+
+1370982320 source:c:\users\lucas\desktop\sup\score.c
+	"score.h"
+
+1370794551 c:\users\lucas\desktop\sup\score.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	<SDL/SDL_ttf.h>
+	<stdlib.h>
+	<stdio.h>
+	"text.h"
+	"definitions.h"
+
+1368702880 source:c:\users\lucas\dropbox\projets\c\sup\homescreen.c
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	<SDL/SDL_ttf.h>
+	"definitions.h"
+	"homescreen.h"
+	"text.h"
+
+1370630664 c:\users\lucas\dropbox\projets\c\sup\definitions.h
+
+1368697970 c:\users\lucas\dropbox\projets\c\sup\homescreen.h
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	"image.h"
+
+1368697970 c:\users\lucas\dropbox\projets\c\sup\image.h
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1369062223 c:\users\lucas\dropbox\projets\c\sup\text.h
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1368697970 source:c:\users\lucas\dropbox\projets\c\sup\image.c
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"definitions.h"
+	"image.h"
+
+1370980909 source:c:\users\lucas\dropbox\projets\c\sup\jeu\collision.c
+	"collision.h"
+
+1370980983 c:\users\lucas\dropbox\projets\c\sup\jeu\collision.h
+	"../image.h"
+	"../definitions.h"
+	"scroll.h"
+	"helico.h"
+	"decor.h"
+	"otages.h"
+	"enemi.h"
+	<SDL/SDL.h>
+
+1368885178 c:\users\lucas\dropbox\projets\c\sup\jeu\scroll.h
+	"../image.h"
+
+1369062863 c:\users\lucas\dropbox\projets\c\sup\jeu\helico.h
+	<SDL/SDL.h>
+	"../text.h"
+	"../definitions.h"
+
+1368992919 c:\users\lucas\dropbox\projets\c\sup\jeu\decor.h
+	"../image.h"
+	"../definitions.h"
+	"scroll.h"
+	<SDL/SDL.h>
+
+1370943441 c:\users\lucas\dropbox\projets\c\sup\jeu\otages.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	<SDL/SDL_ttf.h>
+	"scroll.h"
+	"decor.h"
+	"helico.h"
+
+1370859378 c:\users\lucas\dropbox\projets\c\sup\jeu\enemi.h
+	<SDL/SDL.h>
+	"decor.h"
+	"scroll.h"
+	"helico.h"
+	"../definitions.h"
+	<stdlib.h>
+	<time.h>
+
+1368896757 source:c:\users\lucas\dropbox\projets\c\sup\jeu\decor.c
+	"decor.h"
+	"scroll.h"
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1371023764 source:c:\users\lucas\dropbox\projets\c\sup\jeu\enemi.c
+	"enemi.h"
+	"../definitions.h"
+	<math.h>
+
+1370983656 source:c:\users\lucas\dropbox\projets\c\sup\jeu\game.c
+	"game.h"
+
+1370952263 c:\users\lucas\dropbox\projets\c\sup\jeu\game.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	<SDL/SDL_ttf.h>
+	"../text.h"
+	"otages.h"
+	"scroll.h"
+	"helico.h"
+	"decor.h"
+	"collision.h"
+	"enemi.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1370696897 source:c:\users\lucas\dropbox\projets\c\sup\jeu\helico.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	<SDL/SDL_ttf.h>
+	"scroll.h"
+	"helico.h"
+
+1370978908 source:c:\users\lucas\dropbox\projets\c\sup\jeu\otages.c
+	"otages.h"
+
+1370619120 source:c:\users\lucas\dropbox\projets\c\sup\jeu\scroll.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	<SDL/SDL_ttf.h>
+	"../image.h"
+	"scroll.h"
+
+1368724611 source:c:\users\lucas\dropbox\projets\c\sup\main.c
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmodex/fmod.h>
+	"definitions.h"
+	"homescreen.h"
+	"menuscreen.h"
+
+1368697971 c:\users\lucas\dropbox\projets\c\sup\menuscreen.h
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	"image.h"
+
+1370794948 source:c:\users\lucas\dropbox\projets\c\sup\menuscreen.c
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmodex/fmod.h>
+	"score.h"
+	"text.h"
+	"definitions.h"
+	"menuscreen.h"
+	"image.h"
+
+1370794551 c:\users\lucas\dropbox\projets\c\sup\score.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fmodex/fmod.h>
+	<SDL/SDL_ttf.h>
+	<stdlib.h>
+	<stdio.h>
+	"text.h"
+	"definitions.h"
+
+1370982320 source:c:\users\lucas\dropbox\projets\c\sup\score.c
+	"score.h"
+
+1368701180 source:c:\users\lucas\dropbox\projets\c\sup\text.c
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"definitions.h"
+	"text.h"
+

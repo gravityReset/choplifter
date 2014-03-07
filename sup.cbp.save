@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sup" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/sup" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/sup" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\SDL-1.2.15\lib\SDL_image.lib" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\SDL-1.2.15\lib\SDL_ttf.lib" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libfmodex.a" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/lib" />
+		</Linker>
+		<Unit filename="cb.bmp" />
+		<Unit filename="definitions.h" />
+		<Unit filename="homescreen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="homescreen.h" />
+		<Unit filename="image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="image.h" />
+		<Unit filename="jeu/collision.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jeu/collision.h" />
+		<Unit filename="jeu/decor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jeu/decor.h" />
+		<Unit filename="jeu/enemi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jeu/enemi.h" />
+		<Unit filename="jeu/game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jeu/game.h" />
+		<Unit filename="jeu/helico.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jeu/helico.h" />
+		<Unit filename="jeu/otages.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jeu/otages.h" />
+		<Unit filename="jeu/scroll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jeu/scroll.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menuscreen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menuscreen.h" />
+		<Unit filename="score.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="score.h" />
+		<Unit filename="text.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="text.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

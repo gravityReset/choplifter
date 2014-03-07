@@ -1,0 +1,11 @@
+#define WIDTH 640
+#define HEIGHT 384
+#define PIXELS (WIDTH * HEIGHT)
+#define LEFT 1
+#define RIGHT 0
+#define VITESSE_HELICE 5
+#define LIMITE_HAUT 5
+#define LIMITE_BAS 360
+#define LIMITE_DROITE WIDTH-50
+#define LIMITE_GAUCHE 50
+#define NBMISSILE 20
